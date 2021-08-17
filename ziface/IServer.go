@@ -10,5 +10,7 @@ type IServer interface{
 	//run
 	Run()
 
+	AddRouter(router IRouter)
+
 
 }
